@@ -1,0 +1,13 @@
+[
+    {
+      "method": "GET",
+      "path": "/edgedb/find",
+      "handler": "edgedb.find"
+    },
+    {
+      "method": "POST",
+      "path": "/edgedb/create",
+      "handler": "edgedb.create"
+    }
+  ]
+  
