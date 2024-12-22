@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "Blog"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Feature_Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "Farming",
+        "Tools"
+      ]
+    },
+    "Slug": {
+      "type": "string"
+    },
+    "Live_Url": {
+      "type": "string"
+    },
+    "Tags": {
+      "type": "enumeration",
+      "enum": [
+        "Farming",
+        "Tools"
+      ]
+    },
+    "Blog_id": {
+      "type": "uid"
+    }
+  }
+}
